@@ -3,9 +3,9 @@ import 'package:news_app_ui_setup/models/category_model.dart';
 import 'package:news_app_ui_setup/views/category_view.dart';
 
 class CategoryCard extends StatelessWidget {
+  final CategoryModel category;
   const CategoryCard({super.key, required this.category});
 
-  final CategoryModel category;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
